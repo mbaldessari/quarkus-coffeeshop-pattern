@@ -6,6 +6,18 @@ global:
     useCSV: false
     syncPolicy: Automatic
     installPlanApproval: Automatic
-  
+
+  git:
+    hostname: github.com
+    account: mhjacks
+    username: mhjacks
+    email: mhjacks@redhat.com
+    dev_revision: main
+
+  imageregistry:
+    account: martjack
+    hostname: quay.io
+    type: quay
+
 main:
   clusterGroupName: hub
