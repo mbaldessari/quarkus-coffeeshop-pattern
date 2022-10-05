@@ -19,5 +19,32 @@ global:
     hostname: quay.io
     type: quay
 
+  homeofficeBackend:
+    revision: main
+
+  homeofficeIngress:
+    revision: master
+
+  quarkuscoffeeshopBarista:
+    revision: main
+
+  quarkuscoffeeshopCounter:
+    revision: 5.0.3-SNAPSHOT
+
+  quarkuscoffeeshopCustomermocker:
+    revision: master
+
+  quarkuscoffeeshopInventory:
+    revision: '5.0.0-SNAPSHOT'
+
+  quarkuscoffeeshopKitchen:
+    revision: main
+
+  quarkuscoffeeshopMajesticMonolith:
+    revision: main
+
+  quarkuscoffeeshopWeb:
+    revision: '5.0.3-SNAPSHOT'
+
 main:
   clusterGroupName: hub
