@@ -9,7 +9,7 @@ global:
 
   git:
     hostname: github.com
-    account: quarkuscoffeeshop
+    account: mhjacks
     username: mhjacks
     email: mhjacks@redhat.com
     dev_revision: main
