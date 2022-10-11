@@ -71,7 +71,7 @@ spec:
         - name: CONTEXT
           value: .
         - name: DOCKERFILE
-          value: src/main/docker/Dockerfile.jvm
+          value: src/main/docker/Dockerfile.native
         - name: IMAGE
           value: >-
             image-registry.openshift-image-registry.svc:5000/quarkuscoffeeshop-cicd/quarkuscoffeeshop-kitchen:$(params.IMAGE_TAG)
