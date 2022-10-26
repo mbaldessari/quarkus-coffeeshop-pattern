@@ -66,3 +66,5 @@ global:
 
 main:
   clusterGroupName: hub
+  gitops:
+    channel: latest
